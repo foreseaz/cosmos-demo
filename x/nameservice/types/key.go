@@ -1,3 +1,4 @@
+// DRY practice
 package types
 
 const (
