@@ -14,7 +14,7 @@ func NewHandler(k Keeper) sdk.Handler {
 		ctx = ctx.WithEventManager(sdk.NewEventManager())
 		switch msg := msg.(type) {
 		// TODO: Define your msg cases
-		// 
+		//
 		//Example:
 		// case Msg<Action>:
 		// 	return handleMsg<Action>(ctx, k, msg)
